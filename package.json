@@ -1,0 +1,26 @@
+{
+  "name": "real-time-markdown-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pratyushx/real-time-markdown-viewer.git"
+  },
+  "author": "Pratyush Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pratyushx/real-time-markdown-viewer/issues"
+  },
+  "homepage": "https://github.com/Pratyushx/real-time-markdown-viewer#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "redis": "^2.8.0",
+    "share": "^0.6.3"
+  }
+}
